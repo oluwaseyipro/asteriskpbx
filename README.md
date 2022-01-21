@@ -1,1 +1,21 @@
-# asteriskpbx
+This project  setup PBX  using Asterisk 
+-  Outline
+   - Quick Intro to PBX Asterisk  
+   - Deploy Ubuntu Server  on Linode
+   - Update Ubuntu Server
+   - Install Asterisk Dependences
+   - Download and Install the Latest Asterisk from Source
+   - Intro to PJSIP
+    - Configure SIP Accounts Using PJSIP
+        - Lagos Office
+        - Canada Office
+        - London Office
+         - US Office
+    - Config Firewall to Allow Ports 5060-5061   and 10000 -20000
+    - Download and Configure Softphone (ZoIPer / Phonerlite0
+    - Configure Dial Plan
+    - Test Calls across our Offices
+    - Setup Trunk to Provider (Test with Cyberspace Limited)
+    - Make and Receive call via the provider
+    - What next
+       -Documenation Ref: https://wiki.asterisk.org/wiki/display/AST/Home
