@@ -1,0 +1,21 @@
+ sudo apt update
+ sudo apt upgrade
+ sudo apt upgrade  -y
+ sudo reboot
+ sudo apt update 
+ sudo apt -y   install libedit-dev git curl wget libnewt-dev libssl-dev libncurses5-dev subversion  libsqlite3-dev build-essential libjansson-dev libxml2-dev  uuid-dev
+ cd /usr/src/
+ sudo  wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-18-current.tar.gz
+ sudo tar xfv asterisk-18-current.tar.gz
+ cd asterisk-18.9.0/
+ sudo contrib/scripts/install_prereq install
+ sudo ./configure 
+ sudo make menuselect  
+ sudo make 
+ sudo make install
+ sudo make samples
+ sudo make config
+ sudo service asterisk status
+ sudo service asterisk  start
+ sudo service asterisk  status
+ sudo asterisk -rvvvv 
