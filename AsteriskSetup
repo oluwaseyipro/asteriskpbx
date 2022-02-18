@@ -5,7 +5,7 @@
  sudo apt update 
  sudo apt -y   install libedit-dev git curl wget libnewt-dev libssl-dev libncurses5-dev subversion  libsqlite3-dev build-essential libjansson-dev libxml2-dev  uuid-dev
  cd /usr/src/
- sudo  wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-18-current.tar.gz
+ sudo  wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-18-current.tar.gz   (Visit Asterisk official website to the lattest LTS release : https://www.asterisk.org/downloads/)
  sudo tar xfv asterisk-18-current.tar.gz
  cd asterisk-18.9.0/
  sudo contrib/scripts/install_prereq install
